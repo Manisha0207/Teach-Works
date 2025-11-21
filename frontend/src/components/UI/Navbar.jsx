@@ -47,11 +47,11 @@ const Navbar = () => {
             to={!localData ? "/" : undefined}
             onClick={() => {
               if (localData) {
-                toast.success("Welcome to Tutor-Time");
+                toast.success("Welcome to Teach-Works");
               }
             }}
           >
-            Tutor-Time
+            Teach-Works
           </Link>
 
 
